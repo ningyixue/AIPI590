@@ -30,6 +30,11 @@ Constraint
 Define success targets for metrics
 - The new searching tool needs to better help customers find the stay fits their needs, therefore, the returning customers would increase.
 
+Ethical<br />
+We currently dropped all other columns except ‘Year of crime’, ‘Latitude’, ‘Longitude’, and ‘neighborhood/district’ of each crime, because we believe in this analysis, however, for different users, other attributes such as sex, gender, race may have different levels of impact of their search and corresponding result. 
+
+We also did a random sampling to fairly decrease the size of the sample of crime to 10000 in order to perform some calculation and functions. However, this may also lead the result to an unfair outcome. 
+
 Tools and Dataset
 Programming Languages & Packages
 - Python<br />
@@ -45,7 +50,7 @@ Dataset
 - Subway station : https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
 - NYPD crimes : https://www.kaggle.com/adamschroeder/crimes-new-york-city
 
-Steps of Running Codes
+Steps of Running Codes<br />
 I.	Airbnb
 1.	We created a notebook called “Airbnb.ipynb”.
 2.	We downloaded the dataset from the above-mentioned website and converted the data into a dataframe.
@@ -97,8 +102,5 @@ We use this score to indicate the convenience of the Airbnb listings, 0 being le
 We use this score to indicate the safeness of the Airbnb listings, 0 being least safe and 10 being safest.
 5.	We repeated the previous step, visualization, in order to display the top recommended Airbnb by area. We created an interactive map and added the information on these dataframes on to the map, which allows people to zoom in and zoom out the check the Airbnb listings that they are interested in, while viewing the number of crimes and subway stations nearby.
 
-VIII. Ethical<br />
-We currently dropped all other columns except ‘Year of crime’, ‘Latitude’, ‘Longitude’, and ‘neighborhood/district’ of each crime, because we believe in this analysis, however, for different users, other attributes such as sex, gender, race may have different levels of impact of their search and corresponding result. 
 
-We also did a random sampling to fairly decrease the size of the sample of crime to 10000 in order to perform some calculation and functions. However, this may also lead the result to an unfair outcome. 
 
