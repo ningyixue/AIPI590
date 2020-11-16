@@ -90,10 +90,10 @@ VII.	Airbnb Scoring
 1.	We use the notebook “visualization.ipynb”.
 2.	We read the previous cleaned csv files, “Airbnb_with_station_crime.csv” and convert them into dataframes.
 3.	We normalized the number of subway stations and convert into score through this formula:  
-![normalization](https://github.com/ningyixue/AIPI590/blob/main/normalization_1.png)
+![normalization](https://github.com/ningyixue/AIPI590/blob/main/normalization_1.png)<br />
 We use this score to indicate the convenience of the Airbnb listings, 0 being least convenient and 10 being most convenient.
 4.	We normalized the number of crimes and convert to score through this formula:
- ![normalization2](https://github.com/ningyixue/AIPI590/blob/main/normalization_2.png)
+ ![normalization2](https://github.com/ningyixue/AIPI590/blob/main/normalization_2.png)<br />
 We use this score to indicate the safeness of the Airbnb listings, 0 being least safe and 10 being safest.
 5.	We repeated the previous step, visualization, in order to display the top recommended Airbnb by area. We created an interactive map and added the information on these dataframes on to the map, which allows people to zoom in and zoom out the check the Airbnb listings that they are interested in, while viewing the number of crimes and subway stations nearby.
 
