@@ -4,42 +4,42 @@ Evaluating Airbnb in New York City
 Author: Jay Lin, Joanne Xiao, Ningyi Xue
 
 Business Understanding 
-Problem to Solve
-▪	New York is most favorable places for tourists: 65.2 m visitors in 2018
-▪	Help tourists to make decisions that fulfill their need and help them have a better experience during their trips in New York by adding new metrics: safety (crimes within 2 miles), convenience (subway stations within 5 miles), availability within a year
+Problem to Solve<br />
+- New York is most favorable places for tourists: 65.2 m visitors in 2018<br />
+- Help tourists to make decisions that fulfill their need and help them have a better experience during their trips in New York by adding new metrics: safety (crimes within 2 miles), convenience (subway stations within 5 miles), availability within a year
 Current State
-▪	Airbnb names can be misleading by containing certain characteristics in the listing description, like “close to subway”, “convenient”, “safe and quite”, etc.
-▪	Airbnb booking system is inconsistent with unclear definition
-▪	Recommends rooms partly based on the number of reviews and the ratings by customers; customer ratings might be biased: 
-o	Owners of listings might offer incentives for customers for high review
-o	The most reviews are more recommended but the less reviewed could offer better service
-o	Customer ratings are given based on these metrics: Cleanliness, Staff & Service, Amenities, Property condition & facilities
+- Airbnb names can be misleading by containing certain characteristics in the listing description, like “close to subway”, “convenient”, “safe and quite”, etc.
+- Airbnb booking system is inconsistent with unclear definition
+- Recommends rooms partly based on the number of reviews and the ratings by customers; customer ratings might be biased: 
+- Owners of listings might offer incentives for customers for high review
+- The most reviews are more recommended but the less reviewed could offer better service
+- Customer ratings are given based on these metrics: Cleanliness, Staff & Service, Amenities, Property condition & facilities
 Key Stakeholders
-▪	Tourists and business travelers that prefer at-home experience during their trips in New York
-▪	Owners of the Airbnb listings and the hotels
+- Tourists and business travelers that prefer at-home experience during their trips in New York
+- Owners of the Airbnb listings and the hotels
 
 Defining Business Success
 Quantifying Expected Impact
-▪	By adding more information about each Airbnb listing, customers can use this tool to better determine what best fits their needs
-▪	Customers’ satisfaction rate for each stay would increase, and Airbnb owners can better understand ways to improve their listing to attract more tourists
+- By adding more information about each Airbnb listing, customers can use this tool to better determine what best fits their needs
+- Customers’ satisfaction rate for each stay would increase, and Airbnb owners can better understand ways to improve their listing to attract more tourists
 Success Metrics
-▪	Technical: search tool to ask for users’ input for hotel names, search the name in database, and return the related information about that hotel
-▪	Business: The revenue and profitability will likely both go up for some of the Airbnb listings. Because of the more accurate match of customers’ needs, there might be more higher reviews given by the customers. 
+- Technical: search tool to ask for users’ input for hotel names, search the name in database, and return the related information about that hotel
+- Business: The revenue and profitability will likely both go up for some of the Airbnb listings. Because of the more accurate match of customers’ needs, there might be more higher reviews given by the customers. 
 Constraint
-▪	The tool cannot cover all the aspects in the real world, it can only give people more information to look at
+- The tool cannot cover all the aspects in the real world, it can only give people more information to look at
 Define success targets for metrics
-▪	The new searching tool needs to better help customers find the stay fits their needs, therefore, the returning customers would increase.
+- The new searching tool needs to better help customers find the stay fits their needs, therefore, the returning customers would increase.
 
 Tools and Dataset
 Programming Languages & Packages
-▪	Python
-o	Pandas
-o	Numpy
-o	Matplotlib.pyplot
-o	sklearn.neighbors
-o	Folium
-o	folium.plugins
-o	geopy
+- Python<br />
+    - Pandas<br /> 
+    - Numpy  
+    - Matplotlib.pyplot  
+    - sklearn.neighbors  
+    - Folium  
+    - folium.plugins  
+    - geopy  
 Dataset
 ▪	Airbnb Dataset: http://insideairbnb.com/get-the-data.html
 ▪	Subway station : https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
