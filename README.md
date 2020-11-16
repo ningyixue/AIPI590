@@ -1,10 +1,10 @@
 # AIPI590
-Readme
-Evaluating Airbnb in New York City
+Readme<br />
+Evaluating Airbnb in New York City<br />
 Author: Jay Lin, Joanne Xiao, Ningyi Xue
 
-Business Understanding 
-Problem to Solve
+Business Understanding<br />
+Problem to Solve<br />
 - New York is most favorable places for tourists: 65.2 m visitors in 2018
 - Help tourists to make decisions that fulfill their need and help them have a better experience during their trips in New York by adding new metrics: safety (crimes within 2 miles), convenience (subway stations within 5 miles), availability within a year
 Current State
@@ -14,11 +14,11 @@ Current State
     - Owners of listings might offer incentives for customers for high review
     - The most reviews are more recommended but the less reviewed could offer better service
     - Customer ratings are given based on these metrics: Cleanliness, Staff & Service, Amenities, Property condition & facilities
-Key Stakeholders
+Key Stakeholders<br />
 - Tourists and business travelers that prefer at-home experience during their trips in New York
 - Owners of the Airbnb listings and the hotels
 
-Defining Business Success
+Defining Business Success<br />
 Quantifying Expected Impact
 - By adding more information about each Airbnb listing, customers can use this tool to better determine what best fits their needs
 - Customers’ satisfaction rate for each stay would increase, and Airbnb owners can better understand ways to improve their listing to attract more tourists
@@ -35,7 +35,7 @@ We currently dropped all other columns except ‘Year of crime’, ‘Latitude�
 
 We also did a random sampling to fairly decrease the size of the sample of crime to 10000 in order to perform some calculation and functions. However, this may also lead the result to an unfair outcome. 
 
-Tools and Dataset
+Tools and Dataset<br />
 Programming Languages & Packages
 - Python<br />
     - Pandas<br /> 
@@ -48,7 +48,7 @@ Programming Languages & Packages
 Dataset
 - Airbnb Dataset: http://insideairbnb.com/get-the-data.html
 - Subway station : https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
-- NYPD crimes : https://www.kaggle.com/adamschroeder/crimes-new-york-city
+- NYPD crimes : https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
 
 Steps of Running Codes<br />
 I.	Airbnb
