@@ -2,6 +2,7 @@
 Readme<br />
 Evaluating Airbnb in New York City<br />
 Author: Jay Lin, Joanne Xiao, Ningyi Xue
+Presentaion Slide Decks: AIPI Final Project.pdf
 
 Business Understanding<br />
 Problem to Solve<br />
